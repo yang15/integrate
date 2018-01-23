@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:53,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{basic:0,caption:[],content:[],cote:0,doe:0,index:0,librari:0,maxdepth:[],modul:0,newton:0,page:0,search:0,small:0,thi:0,toctre:[]},titles:["Welcome to Integrate\u2019s documentation!"],titleterms:{document:0,indic:0,integr:0,tabl:0,welcom:0}})
