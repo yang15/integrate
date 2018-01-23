@@ -9,13 +9,16 @@ def evaluate(bounds, func):
     """
 
     Evaluates simpsons rules on an array of values and a function pointer.
-    \int_{a}^{b} = \int ...
+    
+    .. math::
+
+        \int_{a}^{b} = \sum_i ...
 
     Parameters
     ----------
     bounds : array_like
         An array with a dimension of two that contains the starting and ending points of the integrand.
-    fund : function
+    func : function
         Evalute the integrand at a series of points.
 
     Returns

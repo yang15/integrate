@@ -160,6 +160,36 @@
   <div class="section" id="welcome-to-integrate-s-documentation">
 <h1>Welcome to Integrate’s documentation!<a class="headerlink" href="#welcome-to-integrate-s-documentation" title="Permalink to this headline">¶</a></h1>
 <p>This is a small library that does basic Newton-cotes and MC integrations</p>
+<dl class="function">
+<dt id="integrate.newton_cotes.simpson.evaluate">
+<code class="descclassname">integrate.newton_cotes.simpson.</code><code class="descname">evaluate</code><span class="sig-paren">(</span><em>bounds</em>, <em>func</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/integrate/newton_cotes/simpson.html#evaluate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#integrate.newton_cotes.simpson.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluates simpsons rules on an array of values and a function pointer.</p>
+<div class="math">
+\[\int_{a}^{b} = \sum_i ...\]</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>bounds</strong> : array_like</p>
+<blockquote>
+<div><p>An array with a dimension of two that contains the starting and ending points of the integrand.</p>
+</div></blockquote>
+<p><strong>func</strong> : function</p>
+<blockquote>
+<div><p>Evalute the integrand at a series of points.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>integral</strong> : float</p>
+<blockquote class="last">
+<div><p>The integral of the function between the bounds.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <div class="toctree-wrapper compound">
 </div>
 </div>
