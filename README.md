@@ -5,6 +5,4 @@
 ## Installation
 Please run
 
-"""
-pip install -e .
-"""
+    pip install -e .
